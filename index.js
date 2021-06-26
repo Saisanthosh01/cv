@@ -56,6 +56,8 @@ function makeSound(key){
       var snare = new Audio("snare.mp3");
       snare.play();
       break;
+    default:
+      break;
      }
 }
 
