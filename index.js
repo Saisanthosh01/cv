@@ -56,10 +56,7 @@ function makeSound(key){
       var snare = new Audio("snare.mp3");
       snare.play();
       break;
-    default:
-      var audio = new Audio("tom-1.mp3");
-      audio.play();
-  }
+     }
 }
 
 function buttonAnimation(primekey){
